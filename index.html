@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="#" class="navbar-logo"><img src="logo.svg"></a>
+
+      <div class="navbar-collapse">
+
+        <div class="left">
+          <ul class="navbar-lists">
+            <li class="nav-links">
+              <a class="black-hover dropdown-btn">Features 
+                <button class="">
+                  <img src="icon-arrow-down.svg">
+                </button>
+              </a>
+              <div class="dropdown-menu">
+                <ul class="dropbox box1">
+                  <li class="drop-items">
+                    <img src="icon-todo.svg">
+                    <a href="#">Todo List</a>
+                  </li>
+                  <li class="drop-items">
+                    <img src="icon-calendar.svg">
+                    <a href="#">Calendar</a>
+                  </li>
+                  <li class="drop-items">
+                    <img src="icon-reminders.svg">
+                    <a href="#">Reminders</a>
+                  </li>
+                  <li class="drop-items">
+                    <img src="icon-planning.svg">
+                    <a href="#">Planning</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+           
+            <li class="nav-links mm-down">
+              <a href="#" class="black-hover">Careers</a>
+            </li>
+            <li class="nav-links mm-down">
+              <a href="#" class="black-hover">About</a>
+            </li>
+            <li class="nav-links mm-down">
+              <a class="black-hover dropdown-btn2">Company
+                <button class="">
+                  <img src="icon-arrow-down.svg">
+                </button>
+              </a>
+              <div class="dropdown-menu2">
+                <ul class="dropbox box2">
+                  <li class="drop-items">
+                    <a href="#">History</a>
+                  </li>
+                  <li class="drop-items">
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li class="drop-items">
+                    <a href="#">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+       
+        <div class="mm-down mm-down2">
+          <ul class="navbar-lists right">
+            <li class="nav-links">
+              <a href="#" class="black-hover">Login</a>
+            </li>
+            <li class="nav-links">
+              <a href="#">
+                <button class="regi-btn">Register</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <button class="hamburger">
+        <span class="menu-img"><img src="icon-menu.svg"></span>
+      </button>
+      <button class="burger2">
+        <img src="icon-close-menu.svg">
+      </button>
+    </div>
+  </nav>
+
+  <!-- The Main Part of the Page -->
+
+  <main>
+    <div class="container">
+      <div class="mob-img">
+        <img src="image-hero-mobile.png" alt="" class="mobile-img">
+      </div>
+  
+      <div class="text-container">
+        <h1> Make remote work</h1>
+        
+        <p>
+          Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+      
+        <button type="submit" class="learn-btn hover-link">Learn more</button>
+      
+        <div class="icons">
+          <img src="client-databiz.svg" alt="" class="icon">
+          <img src="client-audiophile.svg" alt="" class="icon">
+          <img src="client-meet.svg" alt="" class="icon">
+          <img src="client-maker.svg" alt="" class="icon">
+        </div>
+      </div>
+  
+      <div class="image desk-img">
+        <img src="image-hero-desktop.png" alt="" class="desktop-img">
+      </div>
+    </div>
+  </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/lammiejay">lammiejay</a>.
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
