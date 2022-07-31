@@ -24,7 +24,7 @@ function mobileMenu() {
     // navMenu.classList.toggle("active");
 }
 
-burger2.addEventListener("click", closeMenu()) ;
+burger2.addEventListener("click", closeMenu) ;
 // // // let i = 1;
 
 // // // navLinks.forEach(n => burger2.addEventListener("click", closeMenu()));
